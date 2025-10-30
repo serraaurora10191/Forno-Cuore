@@ -1,0 +1,165 @@
+<!-- 
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+-->
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu delle Bevande - Ristorante Forno-Cuore</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #fdfbf7;
+      color: #2e2e2e;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      background-color: #f3e6c9;
+      padding: 40px 20px;
+      border-bottom: 2px solid #d2b48c;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      color: #4b3b2b;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-style: italic;
+      color: #6f5c44;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: #fffdf9;
+      padding: 40px 50px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      border-bottom: 2px solid #d2b48c;
+      padding-bottom: 5px;
+      color: #4b3b2b;
+      margin-top: 40px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+    }
+
+    li {
+      margin-bottom: 15px;
+      line-height: 1.6;
+    }
+
+    .drink-name {
+      font-weight: bold;
+      color: #2b2b2b;
+    }
+
+    .price {
+      float: right;
+      color: #a67c00;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9em;
+      color: #7a6c58;
+      border-top: 1px solid #d2b48c;
+      background-color: #fdfaf3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🍸 Pizzeria "Forno-Cuore"</h1>
+    <p>Menu delle Bevande – Eleganza, Gusto e Raffinatezza</p>
+  </header>
+
+  <main>
+    <h2>Aperitivi più amati</h2>
+    <ul>
+      <li><span class="drink-name">Spritz Aperol</span> <span class="price">€6</span><br><em>Prosecco, Aperol, soda, fetta d’arancia</em></li>
+      <li><span class="drink-name">Hugo</span> <span class="price">€6</span><br><em>Prosecco, sciroppo di sambuco, menta e lime</em></li>
+      <li><span class="drink-name">Negroni</span> <span class="price">€7</span><br><em>Gin, Vermouth rosso, Bitter Campari</em></li>
+      <li><span class="drink-name">Americano</span> <span class="price">€6</span><br><em>Campari, Vermouth rosso, soda</em></li>
+      <li><span class="drink-name">Analcolico alla Frutta</span> <span class="price">€5</span><br><em>Mix di succhi tropicali e menta fresca</em></li>
+    </ul>
+
+    <h2>Cocktail più richiesti</h2>
+    <ul>
+      <li><span class="drink-name">Mojito</span> <span class="price">€7</span><br><em>Rum bianco, lime, menta e soda</em></li>
+      <li><span class="drink-name">Gin Tonic</span> <span class="price">€6</span><br><em>Gin premium e tonica</em></li>
+      <li><span class="drink-name">Margarita</span> <span class="price">€8</span><br><em>Tequila, Cointreau, lime</em></li>
+      <li><span class="drink-name">Cosmopolitan</span> <span class="price">€8</span><br><em>Vodka, Cointreau, lime e succo di mirtillo</em></li>
+      <li><span class="drink-name">Caipiroska alla Fragola</span> <span class="price">€7</span><br><em>Vodka, lime e fragole fresche</em></li>
+      <li><span class="drink-name">Cuba Libre</span> <span class="price">€6</span><br><em>Rum, cola e lime</em></li>
+      <li><span class="drink-name">Whiskey Sour</span> <span class="price">€8</span><br><em>Whiskey, limone e zucchero</em></li>
+      <li><span class="drink-name">Long Island Iced Tea</span> <span class="price">€9</span><br><em>Vodka, gin, rum, tequila, triple sec, limone e cola</em></li>
+    </ul>
+
+    <h2>Cocktail Analcolici</h2>
+    <ul>
+      <li><span class="drink-name">Virgin Mojito</span> <span class="price">€6</span><br><em>Lime, menta e soda</em></li>
+      <li><span class="drink-name">Tropical Dream</span> <span class="price">€6</span><br><em>Mango, ananas e lime</em></li>
+      <li><span class="drink-name">Sunset Cooler</span> <span class="price">€6</span><br><em>Arancia, granatina e menta</em></li>
+    </ul>
+
+    <h2>Vini Italiani</h2>
+    <ul>
+      <li><span class="drink-name">Prosecco DOC – Veneto</span> <span class="price">€18</span><br><em>Fresco e fruttato</em></li>
+      <li><span class="drink-name">Chardonnay – Sicilia</span> <span class="price">€20</span><br><em>Morbido, con note di frutta tropicale</em></li>
+      <li><span class="drink-name">Chianti DOCG – Toscana</span> <span class="price">€22</span><br><em>Corposo e armonioso</em></li>
+      <li><span class="drink-name">Montepulciano d’Abruzzo DOC</span> <span class="price">€20</span><br><em>Intenso, con note di frutti rossi</em></li>
+    </ul>
+
+    <h2>Caffetteria</h2>
+    <ul>
+      <li>Espresso <span class="price">€2</span></li>
+      <li>Cappuccino <span class="price">€3</span></li>
+      <li>Caffè Macchiato <span class="price">€2,50</span></li>
+      <li>Caffè Decaffeinato <span class="price">€2</span></li>
+      <li>Tè e Tisane <span class="price">€3</span></li>
+    </ul>
+
+    <h2>Bibite & Succhi</h2>
+    <ul>
+      <li>Acqua Naturale / Frizzante <span class="price">€2</span></li>
+      <li>Coca-Cola / Fanta / Sprite <span class="price">€3</span></li>
+      <li>Succhi di Frutta (Pesca, Pera, Arancia) <span class="price">€3,50</span></li>
+    </ul>
+
+    <h2>Digestivi</h2>
+    <ul>
+      <li>Limoncello Artigianale <span class="price">€4</span></li>
+      <li>Amaro del Capo <span class="price">€4</span></li>
+      <li>Grappa di Moscato <span class="price">€5</span></li>
+    </ul>
+  </main>
+
+  <footer>
+    Un’esperienza di gusto, equilibrio e raffinatezza in ogni calice. 
+  </footer>
+</body>
+</html>
