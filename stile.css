@@ -1,23 +1,62 @@
---!> css del menu dolci
-
+/* Impostazioni generali */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #fff8f5;
-    color: #333;
-    margin: 20px;
+    font-family: 'Georgia', serif;
+    background-color: #cf963f;
+    color: #3b2f2f;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
+/* Header */
+header {
+    background-color: #f4d4b3;
     text-align: center;
-    color: #c0392b;
+    padding: 30px 10px;
+    border-bottom: 3px solid #c27a48;
 }
 
-h2 {
-    color: #2c3e50;
+header h1 {
+    color: #8b3a1a;
+    margin: 0;
+    font-size: 2.5em;
 }
 
-hr {
-    border: none;
-    border-top: 1px solid #ccc;
-    margin: 10px 0;
+header h2 {
+    color: #c0d354;
+    margin: 5px 0 0 0;
+}
+
+/* Ogni blocco della classe dolce */
+.dolci {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 500px;
+    
+}
+
+
+/* Immagini dei dolci */
+.dolci img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;       /* Arrotonda i bordi delle immagini */
+    border: 3px solid #f4d4b3; 
+}
+
+
+
+
+/* piè di pagina */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 0.9em;
+    color: #6b4a32;
+    background-color: #f4d4b3;
+    border-top: 3px solid #c27a48;
 }
