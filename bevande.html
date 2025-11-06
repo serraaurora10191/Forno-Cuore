@@ -3,71 +3,158 @@
 <head>
   <meta charset="UTF-8">
   <title>Menu delle Bevande - Pizzeria Forno-Cuore</title>
+
+  <style>
+    body {
+      font-family: "Georgia", serif;
+      background-color: #fdf6ec;
+      color: #3b2f2f;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      background-color: #f1e1c6;
+      padding: 40px 20px;
+      border-bottom: 3px solid #c19a6b;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      color: #4b2e05;
+      letter-spacing: 2px;
+      margin: 0;
+    }
+
+    header p {
+      font-style: italic;
+      color: #6f5632;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: #fffaf3;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      border-bottom: 2px solid #c19a6b;
+      padding-bottom: 5px;
+      color: #4b2e05;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-top: 40px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 15px;
+      line-height: 1.6;
+    }
+
+    .drink-name {
+      font-weight: bold;
+      color: #2b1d0e;
+    }
+
+    .price {
+      float: right;
+      color: #a67c00;
+      font-weight: bold;
+    }
+
+    em {
+      color: #6b5635;
+      font-size: 0.9em;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #f8efdf;
+      border-top: 2px solid #c19a6b;
+      padding: 25px;
+      color: #6f5632;
+      font-style: italic;
+    }
+  </style>
 </head>
+
 <body>
 
-  <h1>Pizzeria "Forno-Cuore"</h1>
-  <p><em>Menu delle Bevande – Eleganza e Gusto</em></p>
-  <hr>
+  <header>
+    <h1>🍸 Pizzeria "Forno-Cuore"</h1>
+    <p>Menu delle Bevande – Eleganza, Gusto e Raffinatezza</p>
+  </header>
 
-  <h2>Aperitivi più amati</h2>
-  <ul>
-    <li>Spritz Aperol – €6<br>Prosecco, Aperol, soda, fetta d’arancia</li>
-    <li>Hugo – €6<br>Prosecco, sciroppo di sambuco, menta e lime</li>
-    <li>Negroni – €7<br>Gin, Vermouth rosso, Bitter Campari</li>
-    <li>Americano – €6<br>Campari, Vermouth rosso, soda</li>
-    <li>Analcolico alla Frutta – €5<br>Mix di succhi tropicali e menta fresca</li>
-  </ul>
+  <main>
+    <h2>Aperitivi più amati</h2>
+    <ul>
+      <li><span class="drink-name">Spritz Aperol</span> <span class="price">€6</span><br><em>Prosecco, Aperol, soda, fetta d’arancia</em></li>
+      <li><span class="drink-name">Hugo</span> <span class="price">€6</span><br><em>Prosecco, sciroppo di sambuco, menta e lime</em></li>
+      <li><span class="drink-name">Negroni</span> <span class="price">€7</span><br><em>Gin, Vermouth rosso, Bitter Campari</em></li>
+      <li><span class="drink-name">Americano</span> <span class="price">€6</span><br><em>Campari, Vermouth rosso, soda</em></li>
+      <li><span class="drink-name">Analcolico alla Frutta</span> <span class="price">€5</span><br><em>Mix di succhi tropicali e menta fresca</em></li>
+    </ul>
 
-  <h2>Cocktail più richiesti</h2>
-  <ul>
-    <li>Mojito – €7<br>Rum bianco, lime, menta e soda</li>
-    <li>Gin Tonic – €6<br>Gin e acqua tonica</li>
-    <li>Margarita – €8<br>Tequila, Cointreau, lime</li>
-    <li>Cosmopolitan – €8<br>Vodka, Cointreau, lime e succo di mirtillo</li>
-    <li>Caipiroska alla Fragola – €7<br>Vodka, lime e fragole fresche</li>
-  </ul>
+    <h2>Cocktail più richiesti</h2>
+    <ul>
+      <li><span class="drink-name">Mojito</span> <span class="price">€7</span><br><em>Rum bianco, lime, menta e soda</em></li>
+      <li><span class="drink-name">Gin Tonic</span> <span class="price">€6</span><br><em>Gin premium e tonica</em></li>
+      <li><span class="drink-name">Margarita</span> <span class="price">€8</span><br><em>Tequila, Cointreau, lime</em></li>
+      <li><span class="drink-name">Cosmopolitan</span> <span class="price">€8</span><br><em>Vodka, Cointreau, lime e succo di mirtillo</em></li>
+      <li><span class="drink-name">Caipiroska alla Fragola</span> <span class="price">€7</span><br><em>Vodka, lime e fragole fresche</em></li>
+      <li><span class="drink-name">Cuba Libre</span> <span class="price">€6</span><br><em>Rum, cola e lime</em></li>
+    </ul>
 
-  <h2>Cocktail Analcolici</h2>
-  <ul>
-    <li>Virgin Mojito – €6<br>Lime, menta e soda</li>
-    <li>Tropical Dream – €6<br>Mango, ananas e lime</li>
-    <li>Sunset Cooler – €6<br>Arancia, granatina e menta</li>
-  </ul>
+    <h2>Cocktail Analcolici</h2>
+    <ul>
+      <li><span class="drink-name">Virgin Mojito</span> <span class="price">€6</span><br><em>Lime, menta e soda</em></li>
+      <li><span class="drink-name">Tropical Dream</span> <span class="price">€6</span><br><em>Mango, ananas e lime</em></li>
+      <li><span class="drink-name">Sunset Cooler</span> <span class="price">€6</span><br><em>Arancia, granatina e menta</em></li>
+    </ul>
 
-  <h2>Vini Italiani</h2>
-  <ul>
-    <li>Prosecco DOC – €18</li>
-    <li>Chardonnay – €20</li>
-    <li>Chianti DOCG – €22</li>
-    <li>Montepulciano d’Abruzzo – €20</li>
-  </ul>
+    <h2>Vini Italiani</h2>
+    <ul>
+      <li><span class="drink-name">Prosecco DOC – Veneto</span> <span class="price">€18</span><br><em>Fresco e fruttato</em></li>
+      <li><span class="drink-name">Chardonnay – Sicilia</span> <span class="price">€20</span><br><em>Morbido, con note di frutta tropicale</em></li>
+      <li><span class="drink-name">Chianti DOCG – Toscana</span> <span class="price">€22</span><br><em>Corposo e armonioso</em></li>
+      <li><span class="drink-name">Montepulciano d’Abruzzo DOC</span> <span class="price">€20</span><br><em>Intenso, con note di frutti rossi</em></li>
+    </ul>
 
-  <h2>Caffetteria</h2>
-  <ul>
-    <li>Espresso – €2</li>
-    <li>Cappuccino – €3</li>
-    <li>Caffè Macchiato – €2,50</li>
-    <li>Caffè Decaffeinato – €2</li>
-    <li>Tè e Tisane – €3</li>
-  </ul>
+    <h2>Caffetteria</h2>
+    <ul>
+      <li>Espresso <span class="price">€2</span></li>
+      <li>Cappuccino <span class="price">€3</span></li>
+      <li>Caffè Macchiato <span class="price">€2,50</span></li>
+      <li>Tè e Tisane <span class="price">€3</span></li>
+    </ul>
 
-  <h2>Bibite & Succhi</h2>
-  <ul>
-    <li>Acqua Naturale / Frizzante – €2</li>
-    <li>Coca-Cola / Fanta / Sprite – €3</li>
-    <li>Succhi di Frutta (Pesca, Pera, Arancia) – €3,50</li>
-  </ul>
+    <h2>Bibite & Succhi</h2>
+    <ul>
+      <li>Acqua Naturale / Frizzante <span class="price">€2</span></li>
+      <li>Coca-Cola / Fanta / Sprite <span class="price">€3</span></li>
+      <li>Succhi di Frutta (Pesca, Pera, Arancia) <span class="price">€3,50</span></li>
+    </ul>
 
-  <h2>Digestivi</h2>
-  <ul>
-    <li>Limoncello Artigianale – €4</li>
-    <li>Amaro del Capo – €4</li>
-    <li>Grappa di Moscato – €5</li>
-  </ul>
+    <h2>Digestivi</h2>
+    <ul>
+      <li>Limoncello Artigianale <span class="price">€4</span></li>
+      <li>Amaro del Capo <span class="price">€4</span></li>
+      <li>Grappa di Moscato <span class="price">€5</span></li>
+    </ul>
+  </main>
 
-  <hr>
-  <p><strong>Un’esperienza di gusto in ogni calice!</strong></p>
+  <footer>
+    Un’esperienza di gusto, equilibrio e raffinatezza in ogni calice.
+  </footer>
 
 </body>
 </html>
